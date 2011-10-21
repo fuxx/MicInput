@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37AD58C1145186CF000D2D8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AD58C0145186CF000D2D8D /* UIKit.framework */; };
+		37AD58C3145186CF000D2D8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AD58C2145186CF000D2D8D /* Foundation.framework */; };
+		37AD58C5145186CF000D2D8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AD58C4145186CF000D2D8D /* CoreGraphics.framework */; };
+		37AD58CB145186CF000D2D8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37AD58C9145186CF000D2D8D /* InfoPlist.strings */; };
+		37AD58CD145186CF000D2D8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AD58CC145186CF000D2D8D /* main.m */; };
+		37AD58D1145186CF000D2D8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AD58D0145186CF000D2D8D /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		37AD58BC145186CF000D2D8D /* MicInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37AD58C0145186CF000D2D8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37AD58C2145186CF000D2D8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37AD58C4145186CF000D2D8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37AD58C8145186CF000D2D8D /* MicInput-Info.plist */ = {isa = PBXFileReference; path = "MicInput-Info.plist"; sourceTree = "<group>"; };
+		37AD58CA145186CF000D2D8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37AD58CC145186CF000D2D8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37AD58CE145186CF000D2D8D /* MicInput-Prefix.pch */ = {isa = PBXFileReference; path = "MicInput-Prefix.pch"; sourceTree = "<group>"; };
+		37AD58CF145186CF000D2D8D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		37AD58D0145186CF000D2D8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37AD58B9145186CF000D2D8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AD58C1145186CF000D2D8D /* UIKit.framework in Frameworks */,
+				37AD58C3145186CF000D2D8D /* Foundation.framework in Frameworks */,
+				37AD58C5145186CF000D2D8D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37AD58B1145186CE000D2D8D = {
+			isa = PBXGroup;
+			children = (
+				37AD58C6145186CF000D2D8D /* MicInput */,
+				37AD58BF145186CF000D2D8D /* Frameworks */,
+				37AD58BD145186CF000D2D8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37AD58BD145186CF000D2D8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37AD58BC145186CF000D2D8D /* MicInput.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37AD58BF145186CF000D2D8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37AD58C0145186CF000D2D8D /* UIKit.framework */,
+				37AD58C2145186CF000D2D8D /* Foundation.framework */,
+				37AD58C4145186CF000D2D8D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37AD58C6145186CF000D2D8D /* MicInput */ = {
+			isa = PBXGroup;
+			children = (
+				37AD58CF145186CF000D2D8D /* AppDelegate.h */,
+				37AD58D0145186CF000D2D8D /* AppDelegate.m */,
+				37AD58C7145186CF000D2D8D /* Supporting Files */,
+			);
+			path = MicInput;
+			sourceTree = "<group>";
+		};
+		37AD58C7145186CF000D2D8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37AD58C8145186CF000D2D8D /* MicInput-Info.plist */,
+				37AD58C9145186CF000D2D8D /* InfoPlist.strings */,
+				37AD58CC145186CF000D2D8D /* main.m */,
+				37AD58CE145186CF000D2D8D /* MicInput-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37AD58BB145186CF000D2D8D /* MicInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37AD58D4145186CF000D2D8D /* Build configuration list for PBXNativeTarget "MicInput" */;
+			buildPhases = (
+				37AD58B8145186CF000D2D8D /* Sources */,
+				37AD58B9145186CF000D2D8D /* Frameworks */,
+				37AD58BA145186CF000D2D8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicInput;
+			productName = MicInput;
+			productReference = 37AD58BC145186CF000D2D8D /* MicInput.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37AD58B3145186CE000D2D8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "SEMIKRON International GmbH";
+			};
+			buildConfigurationList = 37AD58B6145186CE000D2D8D /* Build configuration list for PBXProject "MicInput" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37AD58B1145186CE000D2D8D;
+			productRefGroup = 37AD58BD145186CF000D2D8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37AD58BB145186CF000D2D8D /* MicInput */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37AD58BA145186CF000D2D8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AD58CB145186CF000D2D8D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37AD58B8145186CF000D2D8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37AD58CD145186CF000D2D8D /* main.m in Sources */,
+				37AD58D1145186CF000D2D8D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37AD58C9145186CF000D2D8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37AD58CA145186CF000D2D8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37AD58D2145186CF000D2D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37AD58D3145186CF000D2D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37AD58D5145186CF000D2D8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MicInput/MicInput-Prefix.pch";
+				INFOPLIST_FILE = "MicInput/MicInput-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37AD58D6145186CF000D2D8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MicInput/MicInput-Prefix.pch";
+				INFOPLIST_FILE = "MicInput/MicInput-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37AD58B6145186CE000D2D8D /* Build configuration list for PBXProject "MicInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37AD58D2145186CF000D2D8D /* Debug */,
+				37AD58D3145186CF000D2D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37AD58D4145186CF000D2D8D /* Build configuration list for PBXNativeTarget "MicInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37AD58D5145186CF000D2D8D /* Debug */,
+				37AD58D6145186CF000D2D8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37AD58B3145186CE000D2D8D /* Project object */;
+}
