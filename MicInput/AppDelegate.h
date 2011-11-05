@@ -3,10 +3,11 @@
 //  MicInput
 //
 //  Created by Stefan Popp on 21.10.11.
-//  Copyright (c) 2011 SEMIKRON International GmbH. All rights reserved.
+//  Copyright (c) 2011 www.stefanpopp.de . All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+@class MyAudioViewController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

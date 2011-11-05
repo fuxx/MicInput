@@ -13,6 +13,11 @@
 		37AD58CB145186CF000D2D8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37AD58C9145186CF000D2D8D /* InfoPlist.strings */; };
 		37AD58CD145186CF000D2D8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AD58CC145186CF000D2D8D /* main.m */; };
 		37AD58D1145186CF000D2D8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AD58D0145186CF000D2D8D /* AppDelegate.m */; };
+		37AD58DD14518715000D2D8D /* AudioProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AD58DC14518715000D2D8D /* AudioProcessor.m */; };
+		37AD58E314518A1A000D2D8D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37AD58E214518A1A000D2D8D /* AudioToolbox.framework */; };
+		37AD58E814518AC5000D2D8D /* MyAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AD58E614518AC5000D2D8D /* MyAudioViewController.m */; };
+		37AD58E914518AC5000D2D8D /* MyAudioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37AD58E714518AC5000D2D8D /* MyAudioViewController.xib */; };
+		37AD58EB14518BD4000D2D8D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 37AD58EA14518BD4000D2D8D /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,20 @@
 		37AD58C0145186CF000D2D8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		37AD58C2145186CF000D2D8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		37AD58C4145186CF000D2D8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		37AD58C8145186CF000D2D8D /* MicInput-Info.plist */ = {isa = PBXFileReference; path = "MicInput-Info.plist"; sourceTree = "<group>"; };
+		37AD58C8145186CF000D2D8D /* MicInput-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MicInput-Info.plist"; sourceTree = "<group>"; };
 		37AD58CA145186CF000D2D8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		37AD58CC145186CF000D2D8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		37AD58CE145186CF000D2D8D /* MicInput-Prefix.pch */ = {isa = PBXFileReference; path = "MicInput-Prefix.pch"; sourceTree = "<group>"; };
-		37AD58CF145186CF000D2D8D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		37AD58CE145186CF000D2D8D /* MicInput-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MicInput-Prefix.pch"; sourceTree = "<group>"; };
+		37AD58CF145186CF000D2D8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37AD58D0145186CF000D2D8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37AD58DB14518715000D2D8D /* AudioProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioProcessor.h; sourceTree = "<group>"; };
+		37AD58DC14518715000D2D8D /* AudioProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioProcessor.m; sourceTree = "<group>"; };
+		37AD58E214518A1A000D2D8D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		37AD58E514518AC5000D2D8D /* MyAudioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAudioViewController.h; sourceTree = "<group>"; };
+		37AD58E614518AC5000D2D8D /* MyAudioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAudioViewController.m; sourceTree = "<group>"; };
+		37AD58E714518AC5000D2D8D /* MyAudioViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyAudioViewController.xib; sourceTree = "<group>"; };
+		37AD58EA14518BD4000D2D8D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		37AD58EC14518BD6000D2D8D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37AD58E314518A1A000D2D8D /* AudioToolbox.framework in Frameworks */,
 				37AD58C1145186CF000D2D8D /* UIKit.framework in Frameworks */,
 				37AD58C3145186CF000D2D8D /* Foundation.framework in Frameworks */,
 				37AD58C5145186CF000D2D8D /* CoreGraphics.framework in Frameworks */,
@@ -42,6 +56,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3785BDD21451BBC500009036 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				37AD58DB14518715000D2D8D /* AudioProcessor.h */,
+				37AD58DC14518715000D2D8D /* AudioProcessor.m */,
+			);
+			name = Audio;
+			sourceTree = "<group>";
+		};
+		3785BDD31451BBD600009036 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3785BDD41451BBE000009036 /* Controller */,
+				3785BDD51451BBED00009036 /* Nibs */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3785BDD41451BBE000009036 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				37AD58E514518AC5000D2D8D /* MyAudioViewController.h */,
+				37AD58E614518AC5000D2D8D /* MyAudioViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3785BDD51451BBED00009036 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				37AD58E714518AC5000D2D8D /* MyAudioViewController.xib */,
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
 		37AD58B1145186CE000D2D8D = {
 			isa = PBXGroup;
 			children = (
@@ -62,6 +111,7 @@
 		37AD58BF145186CF000D2D8D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				37AD58E214518A1A000D2D8D /* AudioToolbox.framework */,
 				37AD58C0145186CF000D2D8D /* UIKit.framework */,
 				37AD58C2145186CF000D2D8D /* Foundation.framework */,
 				37AD58C4145186CF000D2D8D /* CoreGraphics.framework */,
@@ -72,8 +122,9 @@
 		37AD58C6145186CF000D2D8D /* MicInput */ = {
 			isa = PBXGroup;
 			children = (
-				37AD58CF145186CF000D2D8D /* AppDelegate.h */,
-				37AD58D0145186CF000D2D8D /* AppDelegate.m */,
+				3785BDD21451BBC500009036 /* Audio */,
+				3785BDD31451BBD600009036 /* Views */,
+				37AD58E414518AA4000D2D8D /* Delegate */,
 				37AD58C7145186CF000D2D8D /* Supporting Files */,
 			);
 			path = MicInput;
@@ -82,12 +133,23 @@
 		37AD58C7145186CF000D2D8D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				37AD58EC14518BD6000D2D8D /* Default@2x.png */,
+				37AD58EA14518BD4000D2D8D /* Default.png */,
 				37AD58C8145186CF000D2D8D /* MicInput-Info.plist */,
 				37AD58C9145186CF000D2D8D /* InfoPlist.strings */,
 				37AD58CC145186CF000D2D8D /* main.m */,
 				37AD58CE145186CF000D2D8D /* MicInput-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37AD58E414518AA4000D2D8D /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				37AD58CF145186CF000D2D8D /* AppDelegate.h */,
+				37AD58D0145186CF000D2D8D /* AppDelegate.m */,
+			);
+			name = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +204,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				37AD58CB145186CF000D2D8D /* InfoPlist.strings in Resources */,
+				37AD58E914518AC5000D2D8D /* MyAudioViewController.xib in Resources */,
+				37AD58EB14518BD4000D2D8D /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +218,8 @@
 			files = (
 				37AD58CD145186CF000D2D8D /* main.m in Sources */,
 				37AD58D1145186CF000D2D8D /* AppDelegate.m in Sources */,
+				37AD58DD14518715000D2D8D /* AudioProcessor.m in Sources */,
+				37AD58E814518AC5000D2D8D /* MyAudioViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +286,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MicInput/MicInput-Prefix.pch";
 				INFOPLIST_FILE = "MicInput/MicInput-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -231,6 +298,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MicInput/MicInput-Prefix.pch";
 				INFOPLIST_FILE = "MicInput/MicInput-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -255,6 +323,7 @@
 				37AD58D6145186CF000D2D8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
