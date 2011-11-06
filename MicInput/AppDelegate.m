@@ -3,7 +3,7 @@
 //  MicInput
 //
 //  Created by Stefan Popp on 21.10.11.
-//  Copyright (c) 2011 www.stefanpopp.de . All rights reserved.
+//  Copyright (c) 2011 http://www.stefanpopp.de/2011/capture-iphone-microphone/ . All rights reserved.
 //
 
 #import "AppDelegate.h"
