@@ -1,6 +1,6 @@
 //
-//  AudioSingleton.h
-//  MyPulse
+//  AudioProcessor.h
+//  MicInput
 //
 //  Created by Stefan Popp on 21.09.11.
 //  Copyright 2011 www.stefanpopp.de . All rights reserved.
